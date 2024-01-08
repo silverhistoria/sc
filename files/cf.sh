@@ -15,10 +15,10 @@ echo -e ""
 echo -e "\033[91;1m Example : ikeuh22\033[0m"
 echo -e ""
 read -rp "SUBDOMAIN " -e sub
-DOMAIN=zvx.my.id
-SUB_DOMAIN=${sub}.zvx.my.id
-CF_ID=mezzqueen293@gmail.com
-CF_KEY=e03f30d53ad7ec2ab54327baa5e2da5ab44f0
+DOMAIN=awibu.my.id
+SUB_DOMAIN=${sub}.awibu.my.id
+CF_ID=silvercyber1996@gmail.com
+CF_KEY=8cbad7474e818c740eccc1666bc83e52755e6
 set -euo pipefail
 IP=$(curl -sS ifconfig.me);
 echo "Updating DNS for ${SUB_DOMAIN}..."
